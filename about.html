@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
     <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,9 +28,42 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
+    <header>
+      <p id="logoBox">
+        <img id="logo" src="img/transport img.png" alt="underground logo" />
+      </p>
+      <nav>
+        <ul>
+          <li id="firstLi"><a href="#">plan a journey</a></li>
+          <li><a href="#">Status updates</a></li>
+          <li><a href="#">Maps</a></li>
+          <li><a href="#">Fares</a></li>
+          <li><a href="#">More ˅</a></li>
+          <li><a href="#">Marketplace NFT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="searchBox">
+      <h3>MOLE</h3>
+      <div id="searchbarWicon">
+        <p id="searchbarP">
+          <input type="search" name="searchbar" id="searchbar" />
+        </p>
+        <p id="seachbarIconP">
+          <img id="searchIcon" src="img/searchIcon.png" alt="search icon" />
+        </p>
+      </div>
+      <button id="btnLogin">Login</button>
+    </div>
+
     <div class="wrapper">
       <div class="headpage">
         <h2 class="title">
@@ -95,6 +133,7 @@
             >&copy; Copyright Fintech Hackaton, 2022, made by Team Mole</small
           ><br />
           <small>All around the world</small><br />
+          <small>Made with love by the best international team</small>
         </div>
       </div>
     </footer>

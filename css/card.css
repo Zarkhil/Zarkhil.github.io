@@ -1,78 +1,74 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .wrapper {
-  font-family: "Inter", sans-serif;
-  font-size: 15px;
-  margin: 10px auto;
-  max-width: 1200px;
-  line-height: 1.5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    margin: 10px auto;
+    max-width: 1200px;
+    line-height: 1.5rem;
 }
 
 .row {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  margin-bottom: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
 .card {
-  background-color: #184e77;
-  /* margin-top: 200px; */
-  margin-left: 100px;
-  width: 250px;
-  border-radius: 20px;
-  border: 1px #000 solid;
-  position: relative;
-  transition: 0.2s;
+    background-color: #184e77;
+    /* margin-top: 200px; */
+    margin-left: 100px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px #000 solid;
+    position: relative;
+    transition: 0.2s;
 }
 
 .card::before {
-  content: "";
-  position: absolute;
-  height: 50%;
-  width: 100%;
-  background: #fff;
-  border-radius: 20px;
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background: #fff;
+    border-radius: 20px 20px 0 0;
 }
 
 .card:hover {
-  box-shadow: #6c757d 0px 5px 5px 1px;
-  transition: 0.3s;
+    box-shadow: #6c757d 0px 5px 5px 1px;
+    transition: 0.3s;
 }
 
 #image img {
-  padding: 20px 20px 10px 20px;
-  width: 250px;
-  height: 230px;
-  border-radius: 40px;
-  position: relative;
-  /* z-index: 100; */
+    padding: 20px 20px 10px 20px;
+    width: 250px;
+    height: 230px;
+    border-radius: 40px;
+    position: relative;
+    /* z-index: 100; */
 }
 
 .info {
-  margin: auto 25px;
+    margin: auto 25px;
 }
 
 #name {
-  display: flex;
-  flex-flow: column;
+    display: flex;
+    flex-flow: column;
 }
 
 #footer {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
 }
 
 #footer img {
-  width: 20px;
-  height: 20px;
-}
-
-#test{
-    
+    width: 20px;
+    height: 20px;
 }
