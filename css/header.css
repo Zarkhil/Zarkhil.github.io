@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img#logo {
+  width: 11vh;
+}
+
+nav {
+  background-color: gray;
+  padding: 22px 5px;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  width: 78vw;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}

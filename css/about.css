@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  margin: 0 auto;
+  max-width: 1200px;
+  line-height: 1.5rem;
+  height: 100vh;
+}
+
+.headpage {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.title {
+  /* margin-top: 50px; */
+  width: 526px;
+  font-size: 30px;
+  margin-bottom: 200px;
+  padding-top: 100px;
+}
+
+.images {
+  display: flex;
+}
+
+.img_head {
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 10px;
+}
+
+.img_head2 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.main {
+  /* z-index: 2;
+    position: absolute; */
+  width: 1140px;
+}
+
+.questions {
+  margin-top: 15px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+}
+
+.text {
+  width: 600px;
+}
+
+.click {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  margin-top: 60px;
+}
+
+.btnPurchase {
+  text-decoration: none;
+  color: #000;
+  padding: 5px 70px;
+  border: #20a5c2 1px solid;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.btnPurchase:hover {
+  transition: 0.3s;
+  background-color: #20a5c2;
+  color: #fff;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #dfd1c0;
+}
+
+footer .wrapper {
+  background-color: #dfd1c0;
+}
+
+.socialmenu {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0px 0px;
+  padding-top: 20px;
+}
+
+.socialmenu a {
+  color: #000;
+  margin-left: 15px;
+}
+
+.facebook:hover a {
+  color: rgb(74, 27, 245);
+}
+
+/*see https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background*/
+
+.instagram:hover a {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 15px;
+}
+
+.twitter:hover a {
+  color: #50abf1;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: bold;
+}
+
+footer .wrapperFooter {
+  height: 8rem;
+  margin: 0 auto;
+  max-width: 120rem;
+  margin-top: 20px;
+}

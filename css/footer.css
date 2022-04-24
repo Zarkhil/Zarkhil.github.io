@@ -1,0 +1,58 @@
+footer {
+  background-color: #dfd1c0;
+}
+
+footer .wrapper {
+  background-color: #dfd1c0;
+}
+
+.socialmenu {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0px 0px;
+  padding-top: 20px;
+}
+
+.socialmenu a {
+  color: #000;
+  margin-left: 15px;
+}
+
+.facebook:hover a {
+  color: rgb(74, 27, 245);
+}
+
+/*see https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background*/
+
+.instagram:hover a {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 15px;
+}
+
+.twitter:hover a {
+  color: #50abf1;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: bold;
+}
+
+footer .wrapperFooter {
+  height: 8rem;
+  margin: 0 auto;
+  max-width: 120rem;
+  margin-top: 20px;
+}

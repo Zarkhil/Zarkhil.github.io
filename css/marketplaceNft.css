@@ -1,0 +1,102 @@
+#banner {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #40494e;
+  width: fit-content;
+  margin: 45px 0px;
+}
+
+#bannerBigDiv {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+#infoLine {
+  color: #fff;
+}
+
+#btnLearnMore {
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  border-color: #000;
+  text-align: center;
+  border-width: 0px;
+  margin-left: 10px;
+  transition: 0.2s;
+}
+
+#btnLearnMore:hover {
+  background-color: #f9e1e1;
+  /* color: #fff; */
+  transition: 0.2s;
+  font-size: 18px;
+}
+
+#searchBox {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9e1e1;
+  padding: 20px 40px;
+}
+
+#searchbarWicon {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#searchbar {
+  border-width: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 2vh;
+  width: 50vh;
+  outline: none;
+  padding-left: 10px;
+}
+
+#searchIcon {
+  padding: 5px;
+  background-color: #fff;
+  height: 28px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#btnLogin {
+  font-size: 18px;
+  background-color: transparent;
+  border-width: 0px;
+}
+
+#browseNftTitle {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#upcomingDropsP {
+  font-weight: bold;
+}
+
+#dropDateBox {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#dateItalic {
+  font-style: italic;
+}
+
+#centralLine {
+  text-align: center;
+}
