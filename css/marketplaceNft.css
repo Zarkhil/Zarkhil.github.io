@@ -100,3 +100,8 @@
 #centralLine {
   text-align: center;
 }
+
+#learnMoreLink {
+  text-decoration: none;
+  color: #000;
+}
