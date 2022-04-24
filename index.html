@@ -360,13 +360,23 @@
           </li>
         </ul>
         <div class="copyright">
-          <small>&copy; Copyright Fintech Hackaton, 2022, made by Team 2</small
+          <small
+            >&copy; Copyright Fintech Hackaton, 2022, made by Team Mole</small
           ><br />
           <small>All around the world</small><br />
           <small>Made with love by the best international team</small>
         </div>
       </div>
     </footer>
+    <!-- <script src="js/script.js"></script> -->
+    <script>
+      const successCallback = (position) => {
+        console.log(position);
+      };
+      const errorCallback = (error) => {
+        console.error(error);
+      };
+      navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+    </script>
   </body>
-  <script src="js/script.js"></script>
 </html>
